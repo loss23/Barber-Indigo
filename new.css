@@ -6,6 +6,9 @@ body {
     text-align: center;
     overflow-x: hidden;
 
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #TopBar {
@@ -15,9 +18,7 @@ body {
     top: -2vh;
     bottom: 0vh;
 
-    width: 101vw;
-    left: -1vw;
-    right: 0%;
+    width: 100vw;
 }
 
 #TopBar_Name {
@@ -27,6 +28,7 @@ body {
 }
 
 #TopBar h4 {
+    transition: 645ms;
     position: relative;
     top: -1.5vh;
     color: rgb(199, 199, 199);
@@ -34,4 +36,84 @@ body {
 
 #TopBar_Name:hover {
     color: rgb(222, 253, 249);
+    font-size: 155%;
 }
+
+#TopBar h4:hover {
+    color: rgb(222, 253, 249);
+}
+
+
+#HighlightBar {
+    background-color: rgb(145, 74, 74);
+    position: relative;
+
+    top: -5vh;
+}
+
+#BottomBar {
+    background-color: rgb(39, 39, 39);
+    color: white;
+
+    position: relative;
+
+    top: 81.5vh;
+    bottom: 0vh;
+
+    width: 100vw;
+}
+
+#CreditTitle {
+    position: relative;
+    top: 1vh;
+}
+
+#ContactLink {
+    position: relative;
+    top: -1vh;
+    color: white;
+}
+
+#CreditTitle:hover {
+    color: rgb(222, 253, 249);
+}
+
+#ContactLink:visited {
+    color: rgb(199, 199, 199);
+}
+
+#ContactLink:hover {
+    color: rgb(222, 253, 249);
+}
+
+#InfoSection {
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: -2vh;
+}
+
+#InfoSection h2 {
+    position: relative;
+    top: -.2vh;
+}
+
+#InfoSection a{
+    position: relative;
+    top: -1.6vh;
+    font-size: 135%;
+}
+
+#InstagramLink {
+    position: relative;
+    top: -1vh;
+    color: white;
+}
+
+#InstagramLink:visited {
+    color: rgb(199, 199, 199);
+}
+
+
